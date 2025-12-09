@@ -18769,8 +18769,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1572322820}
-  - {fileID: 1019684076}
   - {fileID: 1729833429}
   - {fileID: 679983547}
   - {fileID: 1517773196}
@@ -30696,7 +30694,7 @@ GameObject:
   - component: {fileID: 1019684074}
   - component: {fileID: 1019684073}
   m_Layer: 0
-  m_Name: Capsule (12)
+  m_Name: Pillow 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30790,11 +30788,11 @@ Transform:
   m_GameObject: {fileID: 1019684072}
   serializedVersion: 2
   m_LocalRotation: {x: 0.61708087, y: 0.5997659, z: -0.35020608, w: 0.36992934}
-  m_LocalPosition: {x: -1.0649996, y: 0.63549995, z: -2.56382}
-  m_LocalScale: {x: 0.84974, y: 0.73595977, z: 0.5337216}
+  m_LocalPosition: {x: 7.085, y: 5.769, z: -7.4}
+  m_LocalScale: {x: 0.84974, y: 0.7359597, z: 0.5337216}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 591274105}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 118.761, y: -1.3729858, z: -89.18201}
 --- !u!1 &1020035294
 GameObject:
@@ -49604,7 +49602,7 @@ GameObject:
   - component: {fileID: 1572322818}
   - component: {fileID: 1572322817}
   m_Layer: 0
-  m_Name: Capsule (11)
+  m_Name: Pillow 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49698,11 +49696,11 @@ Transform:
   m_GameObject: {fileID: 1572322816}
   serializedVersion: 2
   m_LocalRotation: {x: 0.61708087, y: 0.5997659, z: -0.35020608, w: 0.36992934}
-  m_LocalPosition: {x: 0.47300053, y: 0.6254997, z: -2.5078197}
-  m_LocalScale: {x: 0.84974, y: 0.73595977, z: 0.5337216}
+  m_LocalPosition: {x: 8.623, y: 5.759, z: -7.344}
+  m_LocalScale: {x: 0.84974, y: 0.7359597, z: 0.5337216}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 591274105}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 118.761, y: -1.3729858, z: -89.18201}
 --- !u!1 &1585700792
 GameObject:
@@ -68603,14 +68601,16 @@ SceneRoots:
   - {fileID: 28644925}
   - {fileID: 29620342}
   - {fileID: 591274105}
+  - {fileID: 1572322820}
+  - {fileID: 1019684076}
   - {fileID: 1414175687}
   - {fileID: 675262890}
   - {fileID: 519045864}
   - {fileID: 857598254}
   - {fileID: 1066831532}
   - {fileID: 1554897073}
-  - {fileID: 240108235}
   - {fileID: 1977906567}
+  - {fileID: 240108235}
   - {fileID: 1565381476}
   - {fileID: 1622578856}
   - {fileID: 560844259}
