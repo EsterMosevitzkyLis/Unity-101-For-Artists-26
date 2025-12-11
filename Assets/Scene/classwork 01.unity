@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: 495377071}
   - component: {fileID: 495377070}
   - component: {fileID: 495377074}
+  - component: {fileID: 495377075}
   m_Layer: 0
   m_Name: wall 2 (1)
   m_TagString: Untagged
@@ -372,9 +373,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
   playerRoot: {fileID: 1175561951}
   playerBoxCollider: {fileID: 1175561952}
-  pushDistance: 5000
-  pushSpeed: 5000
+  pushDistance: 7
+  pushSpeed: 7
   pulseColor: {r: 1, g: 0, b: 0.048927307, a: 1}
+--- !u!65 &495377075
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495377069}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &588071132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -617,6 +639,7 @@ GameObject:
   - component: {fileID: 1413774171}
   - component: {fileID: 1413774170}
   - component: {fileID: 1413774174}
+  - component: {fileID: 1413774175}
   m_Layer: 0
   m_Name: wall 1 (1)
   m_TagString: Untagged
@@ -730,9 +753,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
   playerRoot: {fileID: 1175561951}
   playerBoxCollider: {fileID: 1175561952}
-  pushDistance: 5000
-  pushSpeed: 5000
+  pushDistance: 7
+  pushSpeed: 7
   pulseColor: {r: 0, g: 0.5506482, b: 1, a: 1}
+--- !u!65 &1413774175
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413774169}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.0000002, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1855146238
 GameObject:
   m_ObjectHideFlags: 0
