@@ -336,6 +336,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1108517665129069682, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108517665129069682, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -406,7 +410,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &954063694
 MeshRenderer:
@@ -477,9 +481,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
   playerRoot: {fileID: 363520430}
-  playerBoxCollider: {fileID: 0}
-  pushDistance: 2
-  pushSpeed: 4
+  playerBoxCollider: {fileID: 363520431}
+  pushDistance: 20
+  pushSpeed: 6
   pulseColor: {r: 0, g: 0.86782575, b: 1, a: 1}
 --- !u!1 &1143677512
 GameObject:
@@ -803,7 +807,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1781888134
 MeshRenderer:
@@ -874,9 +878,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
   playerRoot: {fileID: 363520430}
-  playerBoxCollider: {fileID: 0}
-  pushDistance: 8
-  pushSpeed: 4
+  playerBoxCollider: {fileID: 363520431}
+  pushDistance: 20
+  pushSpeed: 10
   pulseColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
