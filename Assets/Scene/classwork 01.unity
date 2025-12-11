@@ -373,8 +373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
   playerRoot: {fileID: 1175561951}
   playerBoxCollider: {fileID: 1175561952}
-  pushDistance: 7
-  pushSpeed: 7
+  pushDistance: 5
+  pushSpeed: 5
   pulseColor: {r: 1, g: 0, b: 0.048927307, a: 1}
 --- !u!65 &495377075
 BoxCollider:
@@ -407,7 +407,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3506
+      value: 0.662
       objectReference: {fileID: 0}
     - target: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -415,7 +415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.63
+      value: -0.924
       objectReference: {fileID: 0}
     - target: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -753,8 +753,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
   playerRoot: {fileID: 1175561951}
   playerBoxCollider: {fileID: 1175561952}
-  pushDistance: 7
-  pushSpeed: 7
+  pushDistance: 5
+  pushSpeed: 5
   pulseColor: {r: 0, g: 0.5506482, b: 1, a: 1}
 --- !u!65 &1413774175
 BoxCollider:
