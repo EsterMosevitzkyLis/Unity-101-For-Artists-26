@@ -256,6 +256,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &363520424 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1108517665129069685, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
+  m_PrefabInstance: {fileID: 421402142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &363520430 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
+  m_PrefabInstance: {fileID: 421402142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &363520431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363520424}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 3, z: 1}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1001 &421402142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -304,14 +335,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1108517665129069682, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1108517665129069685, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
       propertyPath: m_Name
       value: PlayerPrefab3D
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3624911602376261545, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1108517665129069685, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 363520431}
   m_SourcePrefab: {fileID: 100100000, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
 --- !u!1 &954063691
 GameObject:
@@ -325,6 +364,7 @@ GameObject:
   - component: {fileID: 954063695}
   - component: {fileID: 954063694}
   - component: {fileID: 954063693}
+  - component: {fileID: 954063696}
   m_Layer: 0
   m_Name: Wall 1
   m_TagString: Untagged
@@ -424,6 +464,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954063691}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &954063696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954063691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
+  playerRoot: {fileID: 363520430}
+  playerBoxCollider: {fileID: 0}
+  pushDistance: 2
+  pushSpeed: 4
+  pulseColor: {r: 0, g: 0.86782575, b: 1, a: 1}
 --- !u!1 &1143677512
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,6 +761,7 @@ GameObject:
   - component: {fileID: 1781888135}
   - component: {fileID: 1781888134}
   - component: {fileID: 1781888133}
+  - component: {fileID: 1781888136}
   m_Layer: 0
   m_Name: Wall 2
   m_TagString: Untagged
@@ -803,6 +861,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781888131}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1781888136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781888131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
+  playerRoot: {fileID: 0}
+  playerBoxCollider: {fileID: 0}
+  pushDistance: 2
+  pushSpeed: 4
+  pulseColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
