@@ -131,8 +131,6 @@ GameObject:
   - component: {fileID: 125115994}
   - component: {fileID: 125115993}
   - component: {fileID: 125115992}
-  - component: {fileID: 125115995}
-  - component: {fileID: 125115996}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -232,44 +230,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125115990}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &125115995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125115990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
-  playerRoot: {fileID: 1769215777}
-  playerBoxCollider: {fileID: 1769215778}
-  pushDistance: 7
-  pushSpeed: 5
-  pulseColor: {r: 0, g: 1, b: 0.8658817, a: 1}
---- !u!65 &125115996
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125115990}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: -0.00000047683716, z: 0.000000007450581}
 --- !u!1 &358485199
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,14 +315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerPrefab3D
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3624911602376261545, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1108517665129069685, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1769215778}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
 --- !u!1 &1030699028
 GameObject:
@@ -677,37 +633,6 @@ Transform:
   - {fileID: 1098138485}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1769215771 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1108517665129069685, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
-  m_PrefabInstance: {fileID: 581041377}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1769215777 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1108517665129069679, guid: 6e3f96590544f6a4ab6860be2985bdb5, type: 3}
-  m_PrefabInstance: {fileID: 581041377}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1769215778
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769215771}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &1795791572
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,8 +645,6 @@ GameObject:
   - component: {fileID: 1795791576}
   - component: {fileID: 1795791575}
   - component: {fileID: 1795791574}
-  - component: {fileID: 1795791577}
-  - component: {fileID: 1795791578}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -821,44 +744,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795791572}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1795791577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795791572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
-  playerRoot: {fileID: 1769215777}
-  playerBoxCollider: {fileID: 1769215778}
-  pushDistance: 7
-  pushSpeed: 10
-  pulseColor: {r: 1, g: 0, b: 0, a: 1}
---- !u!65 &1795791578
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795791572}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: -0.00000047683716, z: 0.000000007450581}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
