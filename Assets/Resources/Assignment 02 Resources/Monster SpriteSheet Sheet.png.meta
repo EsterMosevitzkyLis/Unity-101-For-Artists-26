@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,14 +37,14 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
-  nPOTScale: 1
+    wrapU: 2
+    wrapV: 2
+    wrapW: 2
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
-  spriteExtrude: 1
+  spriteMode: 2
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -70,7 +70,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -95,12 +95,166 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: eye
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1027
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f931014a481a6b41adaf8445bbbbae7
+      internalID: -281334974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ear
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 30
+        width: 37
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b9062131c0b8046ab2d10d3089c4d9
+      internalID: 552732140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fur
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 516
+        width: 167
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe05d4dc35553940beffa42ce72f04e
+      internalID: -955566314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 934
+        width: 174
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a689d47c26a35499a9e0da652baa3b
+      internalID: 2123014658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nose
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 525
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2e5d867ec9a0a4f911a89ab7de6d1b
+      internalID: -1870279160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1088
+        width: 71
+        height: 148
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861a10dfca080a24a93f5d4e0aaaeaf9
+      internalID: -949796074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leg
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 652
+        width: 80
+        height: 124
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cbe1be251821340821b235a06b327e
+      internalID: 232555247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -108,8 +262,65 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Ear: -1822544328
+      Eye: -1036992618
+      Hand: -949796074
+      Leg: 232555247
+      Monster SpriteSheet Sheet_10: -1318705482
+      Monster SpriteSheet Sheet_11: 68667790
+      Monster SpriteSheet Sheet_12: -861973100
+      Monster SpriteSheet Sheet_13: -441014057
+      Monster SpriteSheet Sheet_14: 1713769690
+      Monster SpriteSheet Sheet_15: 1446180274
+      Monster SpriteSheet Sheet_16: 1580823593
+      Monster SpriteSheet Sheet_17: 172228029
+      Monster SpriteSheet Sheet_18: -30908025
+      Monster SpriteSheet Sheet_19: -2034545333
+      Monster SpriteSheet Sheet_2: -1232603145
+      Monster SpriteSheet Sheet_20: 1900210636
+      Monster SpriteSheet Sheet_21: 1361270641
+      Monster SpriteSheet Sheet_22: -1875255213
+      Monster SpriteSheet Sheet_23: 101082723
+      Monster SpriteSheet Sheet_24: 177195661
+      Monster SpriteSheet Sheet_25: -1565239425
+      Monster SpriteSheet Sheet_26: 14799026
+      Monster SpriteSheet Sheet_27: 1051124565
+      Monster SpriteSheet Sheet_28: 1237702872
+      Monster SpriteSheet Sheet_29: -510736307
+      Monster SpriteSheet Sheet_3: -244951576
+      Monster SpriteSheet Sheet_30: 546976722
+      Monster SpriteSheet Sheet_31: 829050001
+      Monster SpriteSheet Sheet_32: -597574000
+      Monster SpriteSheet Sheet_33: 1379806652
+      Monster SpriteSheet Sheet_34: -1566385336
+      Monster SpriteSheet Sheet_35: 393737953
+      Monster SpriteSheet Sheet_36: -722610888
+      Monster SpriteSheet Sheet_37: -496232509
+      Monster SpriteSheet Sheet_38: -2132943508
+      Monster SpriteSheet Sheet_39: -177553641
+      Monster SpriteSheet Sheet_4: 1595898037
+      Monster SpriteSheet Sheet_40: -688594352
+      Monster SpriteSheet Sheet_41: -176666638
+      Monster SpriteSheet Sheet_42: 182116514
+      Monster SpriteSheet Sheet_43: 1155642607
+      Monster SpriteSheet Sheet_44: -1328674147
+      Monster SpriteSheet Sheet_46: -920460170
+      Monster SpriteSheet Sheet_5: 934555498
+      Monster SpriteSheet Sheet_6: 11787166
+      Monster SpriteSheet Sheet_7: 251695932
+      Monster SpriteSheet Sheet_8: -1760618245
+      Monster SpriteSheet Sheet_9: -659518967
+      Monster b Sheet_0: 2123014658
+      Nose: -1870279160
+      body: 2123014658
+      eye: -281334974
+      fur: -955566314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

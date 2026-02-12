@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -95,12 +95,848 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1315
+        width: 998
+        height: 705
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc18ee724f97c4c42af2c2f58926ddda
+      internalID: 453789069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_1
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1441
+        width: 887
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6f4b85036fb8f42a48833b09a39ad8
+      internalID: -903977051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1145
+        width: 514
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e708932b566c5714fb0422abccc10b19
+      internalID: -898303244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_3
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1054
+        width: 758
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acf7ecb2a411a648baf2e991d92ebb2
+      internalID: -626404911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1055
+        width: 367
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb75b4ccd327654f81c2bfb2a595d2b
+      internalID: 526350911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 837
+        width: 285
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4591da6203b45564c884ea8ed30ffa9f
+      internalID: -491615115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 837
+        width: 286
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48459cd0b2baef346ba346edd4f225ac
+      internalID: 970396460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_7
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 837
+        width: 285
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39a6dda889c2e740a45890f91feb06b
+      internalID: 1153789760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_8
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 837
+        width: 285
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69acfee58c7ac1440a95b15eb6fb84d5
+      internalID: -224810099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 672
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ab41213403e7a4ca807092add2e26f
+      internalID: -559940508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_10
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 672
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf18c1cc58946f4409d593e56bd153c1
+      internalID: 82597975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 672
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33b5457a1fbfdb4385fe8e244ced1a0
+      internalID: -1848292547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_12
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 672
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf16f4b28e38b2f4e91ba020d31af2d3
+      internalID: -1686610996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_13
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 672
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbe6fe716c4c6544993d28632a63b04
+      internalID: -576622519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_14
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 671
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dea80b1ff3c6904c8e1923c52a2f7a0
+      internalID: 269615437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_15
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 671
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d6164039dc2144285c685a6f5280d7
+      internalID: 1503044786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_16
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 518
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb079e1c7c9b2843b4af78bd287019a
+      internalID: -362703638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_17
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 518
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a9836c8aa235441bb73873c2ef5ebe
+      internalID: -119615141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_18
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 518
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f672b4584bcba5640b5ee1a375a401dc
+      internalID: -952572408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_19
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 518
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f011f2595d6516e43b2624a49d3f17b1
+      internalID: 515962384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_20
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 526
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31887e5dd503356419ea62d14e778407
+      internalID: -1932052877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_21
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 526
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25b235a6d90e1e49b8b0dfd644777e7
+      internalID: -711085906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 357
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603d69a1080f2a24bb736c52cc800f39
+      internalID: -94012123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_23
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 357
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e88b5cfd5215ea458bfc4fbcc1c0114
+      internalID: 916177382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_24
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 357
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9c5417830cbad448cd38e3cc664073
+      internalID: -245397012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_25
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 357
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b76584e6fb91b46b920c41ea9706d5
+      internalID: 1595308402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_26
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 361
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154dc3b42afdae944b407dc5b8224ba7
+      internalID: 62436176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_27
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 361
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32f4b0c635c7104483fe2880d5f8ec7
+      internalID: 1403562321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_28
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 361
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560f473a324484748bc08eccacbf227a
+      internalID: 508999280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_29
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 200
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46412759fa513cf4db528d806e6da1f2
+      internalID: 153903804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_30
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 200
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1194abacdec3395428ab1ca78f780b3c
+      internalID: 1881271858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_31
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 200
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eba8320a6cb814d97b009e0e66c7df
+      internalID: 586759024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_32
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 200
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a7cbbe057293f48b8c7a14a7b61a1f
+      internalID: -1369321119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_33
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 241
+        width: 223
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd811e8fcbf8b14ca23abcc4f73cfe7
+      internalID: 1180674129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 29
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f010502fa7701cb4ba5995d424a4bbf4
+      internalID: -1802826956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 29
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47982aaf3507d5142977660efe654901
+      internalID: 891767018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_36
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 29
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a988907673aebc4692d56d328b3a94f
+      internalID: 607050034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIBundle_UnityCourse_37
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 29
+        width: 122
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b623d123b24d5cc4c836ac29f271f169
+      internalID: -1259736009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9299f68fc139e78448280ae22e0c8565
     internalID: 0
     vertices: []
     indices: 
@@ -108,8 +944,48 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      UIBundle_UnityCourse_0: 453789069
+      UIBundle_UnityCourse_1: -903977051
+      UIBundle_UnityCourse_10: 82597975
+      UIBundle_UnityCourse_11: -1848292547
+      UIBundle_UnityCourse_12: -1686610996
+      UIBundle_UnityCourse_13: -576622519
+      UIBundle_UnityCourse_14: 269615437
+      UIBundle_UnityCourse_15: 1503044786
+      UIBundle_UnityCourse_16: -362703638
+      UIBundle_UnityCourse_17: -119615141
+      UIBundle_UnityCourse_18: -952572408
+      UIBundle_UnityCourse_19: 515962384
+      UIBundle_UnityCourse_2: -898303244
+      UIBundle_UnityCourse_20: -1932052877
+      UIBundle_UnityCourse_21: -711085906
+      UIBundle_UnityCourse_22: -94012123
+      UIBundle_UnityCourse_23: 916177382
+      UIBundle_UnityCourse_24: -245397012
+      UIBundle_UnityCourse_25: 1595308402
+      UIBundle_UnityCourse_26: 62436176
+      UIBundle_UnityCourse_27: 1403562321
+      UIBundle_UnityCourse_28: 508999280
+      UIBundle_UnityCourse_29: 153903804
+      UIBundle_UnityCourse_3: -626404911
+      UIBundle_UnityCourse_30: 1881271858
+      UIBundle_UnityCourse_31: 586759024
+      UIBundle_UnityCourse_32: -1369321119
+      UIBundle_UnityCourse_33: 1180674129
+      UIBundle_UnityCourse_34: -1802826956
+      UIBundle_UnityCourse_35: 891767018
+      UIBundle_UnityCourse_36: 607050034
+      UIBundle_UnityCourse_37: -1259736009
+      UIBundle_UnityCourse_4: 526350911
+      UIBundle_UnityCourse_5: -491615115
+      UIBundle_UnityCourse_6: 970396460
+      UIBundle_UnityCourse_7: 1153789760
+      UIBundle_UnityCourse_8: -224810099
+      UIBundle_UnityCourse_9: -559940508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
