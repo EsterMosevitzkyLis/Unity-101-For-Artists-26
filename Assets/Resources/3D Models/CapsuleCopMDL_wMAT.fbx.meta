@@ -3,7 +3,22 @@ guid: 7ae42dbad53caef42a5d465ab6fb7629
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CopHat
+    second: {fileID: 2100000, guid: d170b1f39e983544cb6c75bb9d43e370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Moustache
+    second: {fileID: 2100000, guid: b367e155303418247a7548decc3b693c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: d7b69529cc4a4fa469fdd3f026a09942, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
