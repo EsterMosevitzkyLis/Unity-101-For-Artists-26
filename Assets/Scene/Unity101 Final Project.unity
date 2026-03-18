@@ -366,8 +366,6 @@ PlayableDirector:
     value: {fileID: 1606551100}
   - key: {fileID: 10501394734927624, guid: 9def18b16c4d34d0caa5c97ecd6e810e, type: 2}
     value: {fileID: 774449613}
-  - key: {fileID: 5656415160804453376, guid: 9def18b16c4d34d0caa5c97ecd6e810e, type: 2}
-    value: {fileID: 0}
   - key: {fileID: -4093954103564685490, guid: 9def18b16c4d34d0caa5c97ecd6e810e, type: 2}
     value: {fileID: 1494706184}
   - key: {fileID: -3076290108238661629, guid: 9def18b16c4d34d0caa5c97ecd6e810e, type: 2}
@@ -2179,7 +2177,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980993851}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85b000330b2b44ab595aa6d7bb1bd519, type: 2}
   m_CullingMode: 0
@@ -7866,7 +7864,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1607783945
   m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: d4ea53cb4c9e043e08da321778cf2289, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7903,6 +7901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446949493}
   - component: {fileID: 1446949492}
+  - component: {fileID: 1446949494}
   m_Layer: 0
   m_Name: 'BirdWing '
   m_TagString: Untagged
@@ -7976,13 +7975,35 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446949491}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.051059447, y: -0.0055653183, z: 0.19383064, w: 0.9796896}
+  m_LocalRotation: {x: 0.05123698, y: -0.0035793947, z: 0.15566067, w: 0.9864744}
   m_LocalPosition: {x: 0.018, y: -0.076, z: -0.112}
   m_LocalScale: {x: 1.2498952, y: 1.2498952, z: 1.2498952}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1054354140}
   m_LocalEulerAnglesHint: {x: 5.866, y: 0.512, z: 22.409}
+--- !u!95 &1446949494
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446949491}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1494706183
 GameObject:
   m_ObjectHideFlags: 0
@@ -8009,7 +8030,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494706183}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ec1258780e23b4f2286c79ece6791ca7, type: 2}
   m_CullingMode: 0
@@ -8234,7 +8255,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1607783945
   m_SortingLayer: 4
-  m_SortingOrder: 6
+  m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8515,8 +8536,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 1, b: 1, a: 0.25490198}
-      maxColor: {r: 1, g: 1, b: 1, a: 0.6313726}
+      minColor: {r: 1, g: 1, b: 1, a: 0.38039216}
+      maxColor: {r: 1, g: 1, b: 1, a: 0.7607843}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -9687,11 +9708,11 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 1, b: 1, a: 0.36078432}
-        key2: {r: 1, g: 1, b: 1, a: 0.35167822}
-        key3: {r: 1, g: 1, b: 1, a: 0}
-        key4: {r: 0, g: 0, b: 0, a: 0}
-        key5: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 1, g: 1, b: 1, a: 0.9805117}
+        key2: {r: 1, g: 1, b: 1, a: 0.91163725}
+        key3: {r: 1, g: 1, b: 1, a: 0.40933168}
+        key4: {r: 0, g: 0, b: 0, a: 0.35167822}
+        key5: {r: 0, g: 0, b: 0, a: 0.36078432}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 8288
@@ -9702,18 +9723,18 @@ ParticleSystem:
         ctime5: 0
         ctime6: 0
         ctime7: 0
-        atime0: 8674
-        atime1: 26407
-        atime2: 41827
-        atime3: 65535
-        atime4: 0
-        atime5: 0
-        atime6: 0
+        atime0: 15613
+        atime1: 22937
+        atime2: 28720
+        atime3: 39128
+        atime4: 41827
+        atime5: 42598
+        atime6: 65535
         atime7: 0
         m_Mode: 0
         m_ColorSpace: 0
         m_NumColorKeys: 3
-        m_NumAlphaKeys: 4
+        m_NumAlphaKeys: 7
       minGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -13142,15 +13163,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700150898}
   m_LocalRotation: {x: -0.52391034, y: 0.5057945, z: 0.46688485, w: 0.50170547}
-  m_LocalPosition: {x: 0, y: 0, z: -2.138}
-  m_LocalScale: {x: 0.055379886, y: 0.037852153, z: 0.06176519}
+  m_LocalPosition: {x: 0, y: 0, z: -1.812}
+  m_LocalScale: {x: 0.055379886, y: 0.030138262, z: 0.042147744}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 266.36902, y: -1096.8049, z: 103.77}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1.404, y: -2.837}
+  m_AnchoredPosition: {x: -1.456, y: -3.032}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: -1.26}
 --- !u!1 &1729095486
@@ -13479,7 +13500,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903467425}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ca2d9c957f4b7486bb3f2aeb22b2cd9b, type: 2}
   m_CullingMode: 0
