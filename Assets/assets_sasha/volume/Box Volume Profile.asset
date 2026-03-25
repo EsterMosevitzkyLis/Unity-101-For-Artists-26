@@ -51,8 +51,8 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.7859328
-          value: 0.8695649
+          time: 0.7918314
+          value: 0.86008215
           inSlope: 1.1686237
           outSlope: 1.1686237
           tangentMode: 0
@@ -368,7 +368,7 @@ MonoBehaviour:
   - {fileID: -7083009791981402158}
   - {fileID: -8928359564039758112}
   - {fileID: 3228077929789044353}
-  - {fileID: 7726961107183976319}
+  - {fileID: 8425697984194777730}
 --- !u!114 &3228077929789044353
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -483,7 +483,7 @@ MonoBehaviour:
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
---- !u!114 &7726961107183976319
+--- !u!114 &8425697984194777730
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -501,31 +501,31 @@ MonoBehaviour:
     m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 100
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 10000
+    m_Value: 100000
   gaussianMaxRadius:
     m_OverrideState: 1
     m_Value: 1.5
   highQualitySampling:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 0
   focusDistance:
     m_OverrideState: 1
-    m_Value: 0.35
+    m_Value: 10
   aperture:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 5.6
   focalLength:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 50
   bladeCount:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 5
   bladeCurvature:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   bladeRotation:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
