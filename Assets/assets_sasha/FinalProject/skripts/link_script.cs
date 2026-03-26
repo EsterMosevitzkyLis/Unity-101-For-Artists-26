@@ -17,13 +17,13 @@ namespace toolsforlinks
         {
             _tmpText = GetComponent<TMP_Text>();
 
-            // Always fallback to main camera (works in PBR / world space)
+            
             _camera = Camera.main;
         }
 
         private void Update()
         {
-            // 🔹 World-space / PBR click support
+            
             if (Input.GetMouseButtonDown(0))
             {
                 HandleClick(Input.mousePosition);
@@ -32,7 +32,7 @@ namespace toolsforlinks
 
         public void OnPointerClick(PointerEventData eventData)
         {
-            // 🔹 UI click support
+            
             HandleClick(eventData.position);
         }
 
@@ -55,7 +55,7 @@ namespace toolsforlinks
 
             Debug.Log($"Clicked link: {linkID}");
 
-            // Open URL
+            
             if (System.Uri.IsWellFormedUriString(linkID, System.UriKind.Absolute))
             {
                 Application.OpenURL(linkID);

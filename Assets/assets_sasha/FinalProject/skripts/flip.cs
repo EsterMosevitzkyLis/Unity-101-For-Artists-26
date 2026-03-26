@@ -53,13 +53,13 @@ public class MirrorFlipCamera : MonoBehaviour
 
     void beginCameraRendering(ScriptableRenderContext context, Camera camera)
     {
-        // Flip only if ONE of the two axis is mirrored but not if both are mirrored.
+        
         if (this == null || !this.gameObject.activeInHierarchy)
             return;
 
         GL.invertCulling = flipHorizontal ^ flipVertical;
 
-        // update is aspect ratio changed
+        
         if (Mathf.Abs(aspectRatio - Camera.aspect) > 0.01f)
         {
             aspectRatio = Camera.aspect;
