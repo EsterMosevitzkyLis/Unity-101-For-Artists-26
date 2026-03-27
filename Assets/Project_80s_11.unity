@@ -11314,12 +11314,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608784311}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0007837488, y: -0.84703493, z: 0.08275662, w: 0.52505493}
-  m_LocalPosition: {x: -16.4, y: 5.3, z: 4.1}
-  m_LocalScale: {x: 0.4468928, y: 0.5823471, z: 0.3408156}
+  m_LocalRotation: {x: 0.108734, y: -0.32359064, z: 0.038727194, w: 0.93913066}
+  m_LocalPosition: {x: 1.8355062, y: 0.6365955, z: -1.2757416}
+  m_LocalScale: {x: 0.07356513, y: 0.09643782, z: 0.05345231}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 543450652846108855}
+  m_Father: {fileID: 1895474109}
   m_LocalEulerAnglesHint: {x: 8.012, y: -116.054, z: 5.112}
 --- !u!95 &608784313
 Animator:
@@ -26072,6 +26072,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 543450652992749287}
+  - {fileID: 608784312}
   - {fileID: 543450652846108855}
   - {fileID: 1808480858}
   - {fileID: 2031007424}
@@ -26185,7 +26186,7 @@ GameObject:
   - component: {fileID: 1908723478}
   - component: {fileID: 1908723477}
   m_Layer: 0
-  m_Name: Green_shroom_Mycelium_L
+  m_Name: Blue_shroom_Mycelium_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26700,7 +26701,6 @@ Transform:
   - {fileID: 3156383788732474628}
   - {fileID: 5696270639872995526}
   - {fileID: 1908723476}
-  - {fileID: 608784312}
   m_Father: {fileID: 1895474109}
   m_LocalEulerAnglesHint: {x: 4.351, y: 7.605, z: 16.24}
 --- !u!4 &543450652885902699
@@ -28761,7 +28761,7 @@ GameObject:
   - component: {fileID: 4482525364526978126}
   - component: {fileID: 1701371976}
   m_Layer: 0
-  m_Name: Blue_shroom_Mycelium_R
+  m_Name: Violet_shroom_Mycelium_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
