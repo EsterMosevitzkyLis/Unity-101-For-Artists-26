@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -95,12 +95,1024 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1230
+        width: 132
+        height: 250
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e948885ed3d2b77409f808fe07ca9622
+      internalID: 625434323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1229
+        width: 98
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbbcc65cc52d8e409fb77b6f4a06ba3
+      internalID: -1667210078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1304
+        width: 82
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fa55926f08e0c47801feeac0ad5fc7
+      internalID: 1098034649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1314
+        width: 79
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0246c18e3ee0f73458b61c703de5afc7
+      internalID: 1849298473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1358
+        width: 71
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99db57ab66634044a8cbe3797ef7a9d
+      internalID: 191947188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1358
+        width: 71
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b058f0773fc00314496872cab0166e75
+      internalID: -1550668941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1371
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821630b72673ef943a5a31973215dcdb
+      internalID: -1646785170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1438
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25345503271d6146add583833910925
+      internalID: 1141839704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1396
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d856b052a20fd284799b57e2c7b502be
+      internalID: -1886303092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1384
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a5a02363c32934d87ec3dd486633f5
+      internalID: -81899186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1049
+        width: 98
+        height: 181
+      alignment: 9
+      pivot: {x: 0.29797113, y: 0.8418319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff022d44b3a9c24ea41ad35f75aa556
+      internalID: -1322802904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1049
+        width: 98
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3321b17600c9d9341a03ece428baf091
+      internalID: 113186816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1102
+        width: 92
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31b9178c53a12d4bab39ca813ec23a7
+      internalID: -1668813964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1128
+        width: 82
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0192096d917c4514ba2008595d796609
+      internalID: 1904351827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 776
+        width: 95
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7a9d54d32f5b744b764ba0084f29f3
+      internalID: 896766928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 778
+        width: 84
+        height: 578
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354a2da11b400e845b3655b73656898a
+      internalID: 1075860060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 982
+        width: 60
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dc0a557502200499f475c317a7149c
+      internalID: -762490425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 868
+        width: 98
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b678836d4a6e04cb26061d1d6d473a
+      internalID: 1889306630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 802
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: 0.49999788, y: 0.82518005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5401fa9c0df1cea4f85ce35bfc513e08
+      internalID: -1111388507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 729
+        width: 105
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9817552a811bc34a946403f828c2c79
+      internalID: -211361454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1003
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f81e4c87ebe4745baca35b7ced50d2
+      internalID: -357154146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 1003
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e166956a72fd744b39d25839f4add0
+      internalID: 1561105142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 793
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f70d8662341a04bb2bb87ed19830c8
+      internalID: 783096080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03a6da9e3cf12045a63c25fee9ea81a
+      internalID: -1831471978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 793
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5878c99197cb5ee47aac409dd147d6f3
+      internalID: 1498053102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 660
+        width: 58
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c323de47e3ced46a5fee859a15892f
+      internalID: -657184350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 755
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d549d0e6db9f7774c87de9560070dc53
+      internalID: -114624552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 740
+        width: 18
+        height: 57
+      alignment: 9
+      pivot: {x: 0.4691442, y: 0.9205074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303442181b65c444a9ca2ffd4584517f
+      internalID: 1532084192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 350
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e77812f6c5f7240b6fb872f0c5d0db
+      internalID: 792214448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 425
+        width: 51
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18086916f90d7844a82d5a817e0d2f2b
+      internalID: 2032849799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 130
+        width: 820
+        height: 1334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759be6b6c145def4b9b59c226aa56252
+      internalID: 2125197046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 175
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7e73ad42423dc4cbe7c5c6d9cea682
+      internalID: 1558068830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 414
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0143045e09eca44593b5ff3afbbf11e
+      internalID: 2063663759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 627
+        width: 71
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232ca70ddacfd0c4faaa5819dab19881
+      internalID: -2000576919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 629
+        width: 71
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b8bca0f7a14684cb5fbace28367561
+      internalID: 646794916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 0
+        width: 364
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30903e80d305aee4ab46853172280a5b
+      internalID: -571351441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 842
+        width: 463
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85b0d45fa826904582e444b2833bfc7
+      internalID: -792281433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1045
+        width: 53
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39be4f8a1f98ee94998356b768e45dfb
+      internalID: -541928467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 644
+        width: 55
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0518c4176e93834186574954d7e3754
+      internalID: -610915084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 18
+        width: 270
+        height: 608
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4c782b7aae95f4d8cd0f8b77e79eb6
+      internalID: 1887242186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 343
+        width: 53
+        height: 23
+      alignment: 9
+      pivot: {x: 0.49875236, y: 0.4748283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e38ada358ca5a43bf724923c95ff5e
+      internalID: 641163037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d76e4fc145dc04981c757be2691b38
+      internalID: -119640452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 871
+        width: 76
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5922c77d4308d94695f8f2bf6191fe6
+      internalID: -1669127472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 528
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da2b75f723e93d4eb1a2415ff7c213a
+      internalID: -302173405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6979c214c3c5fce40be2601d82fa1b68
+      internalID: 1791772970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster SpriteSheet Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 80
+        width: 190
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343255592dc760545b971f6ba49c8a9d
+      internalID: -759249666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3f80cf6721c8a2042a496a82c9bd5e4a
     internalID: 0
     vertices: []
     indices: 
@@ -108,8 +1120,56 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":785.0,"y":442.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Monster SpriteSheet Sheet_0: -792281433
+      Monster SpriteSheet Sheet_1: 625434323
+      Monster SpriteSheet Sheet_10: -81899186
+      Monster SpriteSheet Sheet_11: -1322802904
+      Monster SpriteSheet Sheet_12: 113186816
+      Monster SpriteSheet Sheet_13: -1668813964
+      Monster SpriteSheet Sheet_14: 1904351827
+      Monster SpriteSheet Sheet_15: 896766928
+      Monster SpriteSheet Sheet_16: 1075860060
+      Monster SpriteSheet Sheet_17: -762490425
+      Monster SpriteSheet Sheet_18: -541928467
+      Monster SpriteSheet Sheet_19: 1889306630
+      Monster SpriteSheet Sheet_2: -1667210078
+      Monster SpriteSheet Sheet_20: -1111388507
+      Monster SpriteSheet Sheet_21: -211361454
+      Monster SpriteSheet Sheet_22: -357154146
+      Monster SpriteSheet Sheet_23: 1561105142
+      Monster SpriteSheet Sheet_24: 783096080
+      Monster SpriteSheet Sheet_25: -1831471978
+      Monster SpriteSheet Sheet_26: 1498053102
+      Monster SpriteSheet Sheet_27: -657184350
+      Monster SpriteSheet Sheet_28: -114624552
+      Monster SpriteSheet Sheet_29: 1532084192
+      Monster SpriteSheet Sheet_3: 1098034649
+      Monster SpriteSheet Sheet_30: -610915084
+      Monster SpriteSheet Sheet_31: 792214448
+      Monster SpriteSheet Sheet_32: 1887242186
+      Monster SpriteSheet Sheet_33: 2032849799
+      Monster SpriteSheet Sheet_34: 641163037
+      Monster SpriteSheet Sheet_35: -119640452
+      Monster SpriteSheet Sheet_36: 2125197046
+      Monster SpriteSheet Sheet_37: -1669127472
+      Monster SpriteSheet Sheet_38: 1558068830
+      Monster SpriteSheet Sheet_39: 2063663759
+      Monster SpriteSheet Sheet_4: 1849298473
+      Monster SpriteSheet Sheet_40: -2000576919
+      Monster SpriteSheet Sheet_41: 646794916
+      Monster SpriteSheet Sheet_42: -302173405
+      Monster SpriteSheet Sheet_43: 1791772970
+      Monster SpriteSheet Sheet_44: -759249666
+      Monster SpriteSheet Sheet_45: -571351441
+      Monster SpriteSheet Sheet_5: 191947188
+      Monster SpriteSheet Sheet_6: -1550668941
+      Monster SpriteSheet Sheet_7: -1646785170
+      Monster SpriteSheet Sheet_8: 1141839704
+      Monster SpriteSheet Sheet_9: -1886303092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
